@@ -23,9 +23,9 @@ const Modal = ({ isOpen, onClose }) => {
         >
           &times;
         </div>
-        <div tabIndex="0">Random Text 1</div>
-        <div tabIndex="0">Random Text 2</div>
-        <div tabIndex="0">Random Text 3</div>
+        <div tabIndex="0">Hola chiques, estamos dentro de un modal</div>
+        <div tabIndex="0">Esto tiene un focus trap mal implementado</div>
+        <div tabIndex="0">Porque puedo navegar por fuerta del modal</div>
       </div>
     </div>,
     document.getElementById("root")

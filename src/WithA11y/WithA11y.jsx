@@ -20,17 +20,13 @@ const WithA11y = () => {
       <footer className="footer">this is a footer</footer>
       <dialog ref={dialogRef}>
         <h2 lang="es">Esto es un modal, chiques</h2>
-        <p tabIndex="0" lang="es">
-          Acá estamos dentro de la API de dialog
-        </p>
-        <p tabIndex="0" lang="es">
-          Ahora bien, estamos probando el screen reader
-        </p>
-        <p tabIndex="0" lang="es">
+        <p lang="es">Acá estamos dentro de la API de dialog</p>
+        <p lang="es">Ahora bien, estamos probando el screen reader</p>
+        <p lang="es">
           Muchos no se sienten cómodos con la letra &quot;e&quot; en el lenguaje
           inclusivo
         </p>
-        <p tabIndex="0" lang="es">
+        <p lang="es">
           Pero escucharon como suena la &quot;x&quot; o el arroba?, es un
           horror, chiquxs o chic@s
         </p>
